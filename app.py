@@ -189,7 +189,8 @@ demo = gr.Interface(
     ],
     outputs=[
         gr.Image(type="numpy", label="Output: High Quality Image"),
-        gr.outputs.File(label="Download the output")
+        gr.File(label="Download the output")
+
     ],
     title=title,
     description=description,
@@ -204,6 +205,6 @@ demo = gr.Interface(
       ]
     )
 
-demo.queue(concurrency_count=4)
+demo.queue()
 demo.launch(share=True)
 

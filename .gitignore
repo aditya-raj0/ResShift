@@ -1,5 +1,12 @@
 # Byte-compiled / optimized / DLL files
 __pycache__/
+weights/
+restored_output/
+result/
+*.pem
+*.csv
+*.jpg
+*.png
 *.py[cod]
 *$py.class
 
