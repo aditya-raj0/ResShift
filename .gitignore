@@ -3,6 +3,9 @@ __pycache__/
 weights/
 restored_output/
 result/
+input/
+output/
+
 *.pem
 *.csv
 *.jpg
