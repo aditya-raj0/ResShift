@@ -1,0 +1,7 @@
+the code used for SR : https://github.com/zsyOAOA/ResShift
+the configuration for SR used are:
+    scale = 4
+    version = v1
+    chop_size = 64
+    task = realsr
+    bs = 32
